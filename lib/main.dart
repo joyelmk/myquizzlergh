@@ -30,10 +30,6 @@ class _QuizPageState extends State<QuizPage> {
       Icons.check,
       color: Colors.green,
     ),
-        Icon(
-      Icons.check,
-      color: Colors.green,
-    ),
     Icon(
       Icons.close,
       color: Colors.red,
@@ -51,7 +47,7 @@ class _QuizPageState extends State<QuizPage> {
             padding: EdgeInsets.all(10.0),
             child: Center(
               child: Text(
-                'Choose a True or False....',
+                'Choose True or False....',
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 25.0,
