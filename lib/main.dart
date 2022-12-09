@@ -30,6 +30,10 @@ class _QuizPageState extends State<QuizPage> {
       Icons.check,
       color: Colors.green,
     ),
+        Icon(
+      Icons.check,
+      color: Colors.green,
+    ),
     Icon(
       Icons.close,
       color: Colors.red,
