@@ -29,7 +29,7 @@ class _QuizPageState extends State<QuizPage> {
   List<String> questions = [
     'Are you Human.?',
     'You dont have Brin.?',
-    'Your\'s blood is green.?',
+    'Your\'s blood is blue.?',
   ];
   List<bool> answer = [
     true,
