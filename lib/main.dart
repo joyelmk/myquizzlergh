@@ -27,14 +27,14 @@ class QuizPage extends StatefulWidget {
 class _QuizPageState extends State<QuizPage> {
   List<Icon> scorkeeper = [];
   List<String> questions = [
-    'Are you Human.?',
-    'You dont have Brin.?',
-    'Your\'s blood is blue.?',
+    'Are not you Human.?',
+    'You  have Brin right.?',
+    'Your\'s blood is red.?',
   ];
   List<bool> answer = [
+    false,
+    false,
     true,
-    false,
-    false,
   ];
 
   int questionNumber = 0;
