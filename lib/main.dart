@@ -31,6 +31,11 @@ class _QuizPageState extends State<QuizPage> {
     'You dont have Brin.?',
     'Your\'s blood is green.?',
   ];
+  List<bool> answer = [
+    false,
+    true,
+    true,
+  ];
 
   int questionNumber = 0;
 
