@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'question.dart';
 
 void main() => runApp(Quizzler());
 
@@ -31,10 +32,18 @@ class _QuizPageState extends State<QuizPage> {
     'You  have Brin right.?',
     'Your\'s blood is red.?',
   ];
-  List<bool> answer = [
-    false,
-    false,
-    true,
+
+//   List<bool> answer = [
+//     false,
+//     false,
+//     true,
+//   ];
+// Question q1 = Question(q:'Are not you Human.?',a: false );
+
+  List<Question> questionBank = [
+    Question(q: 'Are not you Human.?', a: false),
+    Question(q: 'You  have Brin right.?', a: true),
+    Question(q: 'Your\'s blood is red.?', a: true),
   ];
 
   int questionNumber = 0;
