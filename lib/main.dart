@@ -32,9 +32,10 @@ class _QuizPageState extends State<QuizPage> {
     'Your\'s blood is green.?',
   ];
   List<bool> answer = [
-    false,
-    true,
-    true,
+      true,
+      false,
+      false,
+  
   ];
 
   int questionNumber = 0;
